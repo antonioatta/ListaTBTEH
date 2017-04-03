@@ -33,7 +33,7 @@ int divisores(int num, int div[])
 
     metade = num/2;
     div[0] = num;
-    for (i=2; i<=metade; i++)
+    for (i=metade; i>=2; i--)
     {
         if (num%i == 0)
         {
@@ -53,7 +53,7 @@ int converte(int binario[], int numDig)
     int decimal=0;
     int potencia=0;
 
-    for (i=numDig-1; i>0; i++)
+    for (i=numDig-1; i>=0; i--)
     {
         decimal += binario[i]*pow(2, potencia);
         potencia++;
@@ -111,7 +111,7 @@ int maior_de_todos(int valores[], int tam)
 
     maior=valores[0];
     pos=0;
-    for (i=1; i<tam-1; i++)
+    for (i=1; i<tam; i++)
     {
         if (valores[i]>maior)
         {
