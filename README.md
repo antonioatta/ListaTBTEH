@@ -1,3 +1,3 @@
 # ListaTBTEH
 
-Solução da Lista de Exercícios - Tipos Básicos e Tipos Estruturados Homogêneos
+Solução da Lista de Exercícios de Programação - Tipos Básicos e Tipos Estruturados Homogêneos
